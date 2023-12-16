@@ -6,7 +6,7 @@ import re
 # 対象のURLを指定
 url = "https://www.town.toyoura.hokkaido.jp/hotnews/category/308.html"
 # 保存先のパス
-save_path = "/Users/sakaguchi/Documents/my scrapings/hokkaido"
+save_path = "Municipality-Minutes-scraping/pdf/toyoura"
 # URLにアクセスしてHTMLデータを取得
 response = requests.get(url)
 html_data = response.content
